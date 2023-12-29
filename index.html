@@ -7,6 +7,14 @@
             font-family: Arial, sans-serif;
             background-color: #f4f4f4;
             text-align: center;
+            display: flex;
+            justify-content: center;
+         }
+         .column {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            margin: 20px;
          }
          h1 {
             margin-top: 50px;
@@ -16,7 +24,9 @@
             height: 400px;
          }
          a {
-            display: inline-block;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
             margin: 20px;
             text-decoration: none;
             color: #333333;
@@ -38,34 +48,37 @@
       </style>
    </head>
    <body>
-      <div>
-      <img class="logo" src="background.jpeg" alt="Logo">
-      <h1>توفير سنتر</h1>
-      <a href="https://www.facebook.com/profile.php?id=61550070827650">
-         <img class="icon" src="facebook.png" alt="Facebook">
-         <span>صفحتنا على الفيس بوك</span>
-      </a>
-      <!--<a href="https://chat.whatsapp.com/DPRRzLiRj9BCVT6zjU1SIr">
-         <img class="icon" src="whatsup.png" alt="WhatsApp">
-         <span>للانضمام إلى مجموعتنا في الواتس</span>
-      </a>-->
-      <a href="https://instagram.com/twfyrsntr2023?igshid=YWYwM2I1ZDdmOQ==">
-         <img class="icon" src="instgram.png" alt="Instagram">
-         <span>صفحتنا على انستجرام</span>
-      </a>
-      <a href="https://maps.app.goo.gl/ftqWzqzRaUTcSMdV6">
-         <img class="icon" src="location.png" alt="WhatsApp">
-         <span>عنوان على الخريطة</span>
-      </a>
-      </div>
-      <div>
+<div class="column">
          <img class="logo" src="background2.jpeg" alt="Logo">
-      <h1>مزايا التخفيضات</h1>
-     
-      <a href="https://maps.app.goo.gl/s6s354TRvSJ5g6xE6">
-         <img class="icon" src="location.png" alt="WhatsApp">
-         <span>عنوان على الخريطة</span>
-      </a>
+         <h1>مزايا التخفيضات</h1>
+         <a href="https://maps.app.goo.gl/s6s354TRvSJ5g6xE6">
+            <img class="icon" src="location.png" alt="WhatsApp">
+            <span>عنوان على الخريطة</span>
+         </a>
       </div>
+      <div class="column">
+         <img class="logo" src="background.jpeg" alt="Logo">
+         <h1>توفير سنتر</h1>
+         
+         <a href="https://maps.app.goo.gl/ftqWzqzRaUTcSMdV6">
+            <img class="icon" src="location.png" alt="WhatsApp">
+            <span>عنوان على الخريطة</span>
+         </a>
+      </div>
+     <div>
+	<a href="https://www.facebook.com/profile.php?id=61550070827650">
+            <img class="icon" src="facebook.png" alt="Facebook">
+            <span>صفحتنا على الفيس بوك</span>
+         </a>
+       
+         <a href="https://instagram.com/twfyrsntr2023?igshid=YWYwM2I1ZDdmOQ==">
+            <img class="icon" src="instgram.png" alt="Instagram">
+            <span>صفحتنا على انستجرام</span>
+         </a>
+<a href="https://chat.whatsapp.com/DPRRzLiRj9BCVT6zjU1SIr">
+            <img class="icon" src="whatsup.png" alt="WhatsApp">
+            <span>للانضمام إلى مجموعتنا في الواتس</span>
+         </a>
+	</div> 
    </body>
 </html>
